@@ -34,7 +34,7 @@ export class PokemonTypeColorPipe implements PipeTransform {
         color = 'pink lighten-4';
         break;
       case 'Psy':
-        color = 'deep-purple darken-2';
+        color = 'pink lighten-2';
         break;
       case 'Electrik':
         color = 'lime accent-1';
@@ -42,6 +42,18 @@ export class PokemonTypeColorPipe implements PipeTransform {
       case 'Combat':
         color = 'deep-orange';
         break;
+        case 'Dragon':
+          color = 'blue lighten-5'
+        break;
+        case 'Sol':
+          color = 'deep-orange accent-3';
+        break;
+        case 'Spectre':
+          color = 'deep-purple accent-1';
+        break;
+        case 'Roche':
+          color = 'deep-orange accent-5';
+          break;
       default:
         color = 'grey';
         break;

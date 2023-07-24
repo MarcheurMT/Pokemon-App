@@ -12,6 +12,7 @@ export class ListPokemonComponent implements OnInit {
 
   constructor(
     private router: Router,
+    // const pokemonService = new PokemonService(); c'est très mauvais de le faire comme ça a cause de différent problème majeur
     private pokemonService: PokemonService
   ) {}
 

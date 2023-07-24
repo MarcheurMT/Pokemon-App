@@ -83,7 +83,11 @@ export class PokemonService {
       'Fée',
       'Vol',
       'Combat',
-      'Psy'
+      'Psy',
+      'Roche',
+      'Sol',
+      'Spectre',
+      'Dragon'
     ];
   }
 
